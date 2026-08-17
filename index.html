@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>COS102 &middot; Problem Solving | IBB University, Lapai</title>
+<meta name="description" content="COS102 Problem Solving online learning and examination platform for Ibrahim Badamasi Babangida University, Lapai. Modules, quizzes, mock examinations, flashcards, a practice lab, an offline tutor and full learning analytics — all working offline in your browser.">
+<meta name="color-scheme" content="light dark">
+<meta id="meta-theme-color" name="theme-color" content="#32399b">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2332399b'/%3E%3Ctext x='32' y='42' font-family='Georgia,serif' font-size='26' font-weight='700' fill='%23ffffff' text-anchor='middle'%3ECS%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<noscript>
+  <div style="max-width:520px;margin:4rem auto;padding:2rem;font-family:Georgia,serif;text-align:center;">
+    <h1>JavaScript Required</h1>
+    <p>The COS102 Problem Solving learning platform runs entirely in your browser and needs JavaScript enabled to work. Please enable JavaScript and reload this page.</p>
+  </div>
+</noscript>
+
+<div id="root"></div>
+
+<!-- All scripts are plain, dependency-free files (no build step, no external
+     CDN, no framework) so the app works fully offline once the files are
+     saved locally. Each file attaches its piece to the shared window.App
+     namespace; app.js (loaded last) wires everything together and starts
+     the router. -->
+<script src="js/data.js"></script>
+<script src="js/storage.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/achievements.js"></script>
+<script src="js/quiz.js"></script>
+<script src="js/exam.js"></script>
+<script src="js/flashcards.js"></script>
+<script src="js/lab.js"></script>
+<script src="js/tutor.js"></script>
+<script src="js/analytics.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
